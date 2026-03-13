@@ -67,6 +67,8 @@ function resetQuiz() {
   document.getElementById('quizForm').innerHTML = '';
   document.getElementById('result').textContent = '';
   document.getElementById('feedback').innerHTML = '';
+  document.getElementById('feedback').className = '';
+  document.getElementById('feedback').style.display = 'none';
   document.getElementById('submitBtn').disabled = false;
   document.getElementById('repeatBtn').style.display = 'none';
 }
@@ -214,6 +216,14 @@ function checkAnswers() {
       fbHTML += `<div>${currentLang === 'de' ? `Frage ${f.questionNum} falsch beantwortet.` : `Question ${f.questionNum} answered incorrectly.`}<br>${currentLang === 'de' ? 'Richtige Antwort:' : 'Correct answer:'} <strong>${f.correctAnswer}</strong></div>`;
     });
     feedbackDiv.innerHTML = fbHTML;
+  }
+
+  const passed = parseFloat(percentage) >= 80;
+  feedbackDiv.style.display = 'block';
+  feedbackDiv.className = passed ? 'feedback-success' : 'feedback-error';
+
+  if (passed && feedback.length === 0) {
+    feedbackDiv.innerHTML = `<div>${currentLang === 'de' ? 'Herzlichen Glückwunsch! Du hast alle Fragen richtig beantwortet.' : 'Congratulations! You answered all questions correctly.'}</div>`;
   }
 
   clearInterval(timerInterval);

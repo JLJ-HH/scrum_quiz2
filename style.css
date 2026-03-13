@@ -112,12 +112,22 @@ input[type="radio"] {
 
 #feedback {
   margin-top: 25px;
-  border: 2px solid #d9534f;
-  background-color: #fbeaea;
   border-radius: 10px;
   padding: 14px 20px;
-  color: #a94442;
   line-height: 1.5;
+  display: none; /* Initial versteckt */
+}
+
+.feedback-error {
+  border: 2px solid #d9534f;
+  background-color: #fbeaea;
+  color: #a94442;
+}
+
+.feedback-success {
+  border: 2px solid #5cb85c;
+  background-color: #eafbea;
+  color: #3c763d;
 }
 
 #feedback div {
