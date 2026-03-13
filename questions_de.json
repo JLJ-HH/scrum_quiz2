@@ -448,5 +448,155 @@
     "question": "Welche Aussage trifft auf die Rolle des Product Owners zu?",
     "answers": ["Ist verantwortlich für das Management des Teams", "Ist verantwortlich für die Maximierung des Produktwertes", "Schreibt Code", "Plant die Release Dates"],
     "correct": 1
+  },
+  {
+    "question": "Was sind die fünf Werte von Scrum?",
+    "answers": ["Mut, Fokus, Commitment, Respekt, Offenheit", "Vertrauen, Schnelligkeit, Qualität, Planung, Kontrolle", "Transparenz, Überprüfung, Anpassung, Analyse, Design", "Disziplin, Effizienz, Hierarchie, Ordnung, Struktur"],
+    "correct": 0
+  },
+  {
+    "question": "Wer ist dafür verantwortlich, dass das Scrum Team sich an die Scrum-Regeln hält?",
+    "answers": ["Product Owner", "Entwicklungsteam", "Scrum Master", "Stakeholder"],
+    "correct": 2
+  },
+  {
+    "question": "Was ist das Commitment für das Product Backlog?",
+    "answers": ["Definition of Done", "Sprint-Ziel", "Produkt-Ziel", "Release-Plan"],
+    "correct": 2
+  },
+  {
+    "question": "Wer entscheidet, wie die Arbeit im Sprint erledigt wird?",
+    "answers": ["Scrum Master", "Product Owner", "Die Developer", "Der Projektmanager"],
+    "correct": 2
+  },
+  {
+    "question": "Welches Event ist die letzte Gelegenheit im Sprint, um Anpassungen vorzunehmen?",
+    "answers": ["Sprint Planning", "Daily Scrum", "Sprint Review", "Sprint Retrospektive"],
+    "correct": 3
+  },
+  {
+    "question": "Was ist der Zweck des Daily Scrums?",
+    "answers": ["Statusbericht an den Product Owner", "Überprüfung des Fortschritts in Richtung Sprint-Ziel", "Zuweisung von Aufgaben durch den Scrum Master", "Detaillierte technische Diskussion"],
+    "correct": 1
+  },
+  {
+    "question": "Was passiert mit unfertigen Product Backlog Items am Ende eines Sprints?",
+    "answers": ["Sie werden als erledigt markiert", "Sie werden automatisch in den nächsten Sprint verschoben", "Sie gehen zurück in das Product Backlog", "Sie werden gelöscht"],
+    "correct": 2
+  },
+  {
+    "question": "Wer ist für die Schätzung der Product Backlog Items verantwortlich?",
+    "answers": ["Product Owner", "Scrum Master", "Die Developer", "Stakeholder"],
+    "correct": 2
+  },
+  {
+    "question": "Was ist die Hauptverantwortung der Developer im Scrum Team?",
+    "answers": ["Das Product Backlog priorisieren", "Ein fertiges Inkrement am Ende des Sprints liefern", "Hindernisse für das Team beseitigen", "Die Stakeholder managen"],
+    "correct": 1
+  },
+  {
+    "question": "Wie viele Product Owner kann ein Scrum Team haben?",
+    "answers": ["Genau einen", "Zwei (einen für Business, einen für IT)", "So viele wie nötig", "Einen pro Stakeholder"],
+    "correct": 0
+  },
+  {
+    "question": "Wann ist ein Sprint abgeschlossen?",
+    "answers": ["Wenn alle Aufgaben erledigt sind", "Wenn die Zeitbox abläuft", "Wenn der Product Owner es sagt", "Wenn die Qualitätssicherung zustimmt"],
+    "correct": 1
+  },
+  {
+    "question": "Welche Rolle darf dem Team vorschreiben, wie es das Sprint Backlog abarbeitet?",
+    "answers": ["Der Scrum Master", "Der Product Owner", "Niemand außer den Developern selbst", "Der IT-Leiter"],
+    "correct": 2
+  },
+  {
+    "question": "Was ist das Commitment für das Inkrement?",
+    "answers": ["Sprint-Ziel", "Definition of Done", "Produkt-Ziel", "Abnahmeprotokoll"],
+    "correct": 1
+  },
+  {
+    "question": "Wie wird das Sprint-Ziel erstellt?",
+    "answers": ["Vom Product Owner vorgegeben", "Vom Scrum Master festgelegt", "Gemeinsam vom gesamten Scrum Team während des Sprint Plannings", "Vom Kunden im Sprint Review"],
+    "correct": 2
+  },
+  {
+    "question": "Was bedeutet Selbstmanagement in Scrum?",
+    "answers": ["Jeder arbeitet ohne Absprache", "Das Team entscheidet intern, wer was wann wie macht", "Es gibt keinen Scrum Master", "Das Management greift täglich ein"],
+    "correct": 1
+  },
+  {
+    "question": "Was ist der primäre Fokus des Product Owners?",
+    "answers": ["Teamdynamik verbessern", "Maximierung des Wertes des Produkts", "Technische Exzellenz", "Einhaltung der Scrum-Events"],
+    "correct": 1
+  },
+  {
+    "question": "Welche Art von Prozesssteuerung liegt Scrum zugrunde?",
+    "answers": ["Prädiktive Prozesssteuerung", "Empirische Prozesssteuerung", "Hierarchische Prozesssteuerung", "Wasserfall-Prozesssteuerung"],
+    "correct": 1
+  },
+  {
+    "question": "Was ist die maximale Timebox für ein Sprint Review bei einem einmonatigen Sprint?",
+    "answers": ["2 Stunden", "4 Stunden", "8 Stunden", "15 Minuten"],
+    "correct": 1
+  },
+  {
+    "question": "Wer sollte am Sprint Review teilnehmen?",
+    "answers": ["Nur das Scrum Team", "Das Scrum Team und die Key Stakeholder", "Nur der Product Owner und Stakeholder", "Nur die Developer"],
+    "correct": 1
+  },
+  {
+    "question": "Welcher Scrum-Wert bedeutet, dass man sich gegenseitig als fähige, unabhängige Personen anerkennt?",
+    "answers": ["Offenheit", "Respekt", "Commitment", "Mut"],
+    "correct": 1
+  },
+  {
+    "question": "Was ist der Zweck des Sprints?",
+    "answers": ["Einen detaillierten Projektplan zu erstellen", "Ein Inkrement mit wertvoller Funktionalität zu liefern", "Mehr Überstunden zu machen", "Alle Anforderungen auf einmal zu erfüllen"],
+    "correct": 1
+  },
+  {
+    "question": "Was beschreibt der Begriff 'Product Backlog Refinement'?",
+    "answers": ["Das Testen des fertigen Produkts", "Das Hinzufügen von Details, Schätzungen und Ordnung zu Product Backlog Items", "Das jährliche Strategie-Meeting", "Das Löschen alter Anforderungen"],
+    "correct": 1
+  },
+  {
+    "question": "Wann beginnt der nächste Sprint?",
+    "answers": ["Nach einer kurzen Planungspause", "Unmittelbar nach dem Abschluss des vorherigen Sprints", "Immer montags", "Wenn neue Anforderungen vorliegen"],
+    "correct": 1
+  },
+  {
+    "question": "Wer trägt die Verantwortung für das Management des Product Backlogs?",
+    "answers": ["Scrum Master", "Stakeholder", "Product Owner", "Teamleiter"],
+    "correct": 2
+  },
+  {
+    "question": "Was ist das Commitment für das Sprint Backlog?",
+    "answers": ["Produkt-Ziel", "Definition of Done", "Sprint-Ziel", "Arbeitsstunden"],
+    "correct": 2
+  },
+  {
+    "question": "Wie wird die Definition of Done (DoD) festgelegt?",
+    "answers": ["Vom Kunden bestimmt", "Wenn sie nicht durch die Organisation vorgegeben ist, muss das Scrum Team sie festlegen", "Vom Scrum Master allein", "Vom Project Management Office"],
+    "correct": 1
+  },
+  {
+    "question": "Was ist die maximale Timebox für eine Sprint Retrospektive bei einem einmonatigen Sprint?",
+    "answers": ["30 Minuten", "1 Stunde", "3 Stunden", "4 Stunden"],
+    "correct": 2
+  },
+  {
+    "question": "Wer ist im Scrum Team für die Qualität verantwortlich?",
+    "answers": ["Nur die Tester", "Der Product Owner", "Das gesamte Scrum Team", "Nur die Developer"],
+    "correct": 2
+  },
+  {
+    "question": "Welche Aussage zur Größe des Scrum Teams ist korrekt laut Scrum Guide?",
+    "answers": ["Immer genau 7 Personen", "Typischerweise 10 oder weniger Personen", "Mindestens 15 Personen", "Beliebig groß"],
+    "correct": 1
+  },
+  {
+    "question": "Was ist kein formelles Scrum Event?",
+    "answers": ["Der Sprint", "Sprint Refinement", "Daily Scrum", "Sprint Review"],
+    "correct": 1
   }
-]
+]
