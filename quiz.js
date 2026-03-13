@@ -68,6 +68,7 @@ function resetQuiz() {
   document.getElementById('result').textContent = '';
   document.getElementById('feedback').innerHTML = '';
   document.getElementById('submitBtn').disabled = false;
+  document.getElementById('repeatBtn').style.display = 'none';
 }
 
 function loadQuestions() {
@@ -217,6 +218,8 @@ function checkAnswers() {
 
   clearInterval(timerInterval);
   document.getElementById('submitBtn').disabled = true;
+  document.getElementById('repeatBtn').style.display = 'block';
+  document.getElementById('repeatBtn').textContent = currentLang === 'de' ? 'Quiz wiederholen' : 'Repeat Quiz';
 }
 
 function backToStart() {
