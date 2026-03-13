@@ -7,18 +7,21 @@ let timerInterval;
 let currentPage = 0;
 let userAnswers = {};
 
-// Lädt Fragen aus JSON und wählt 30 random aus
-async function loadQuestionsFromFile(lang) {
+// Lädt Fragen aus JSON und wählt eine bestimmte Anzahl random aus
+async function loadQuestionsFromFile(lang, count) {
   const url = lang === 'de' ? 'questions_de.json' : 'questions_en.json';
   try {
     const response = await fetch(url);
     if (!response.ok) throw new Error('Fehler beim Laden der Fragen.');
     const allQuestions = await response.json();
 
+    // Max Fragen begrenzen auf das was vorhanden ist
+    const finalCount = Math.min(count, allQuestions.length);
+
     // Shuffle (mischen)
     const shuffled = allQuestions.sort(() => Math.random() - 0.5);
-    // 30 auswählen
-    currentQuestions = shuffled.slice(0, 30);
+    // Gewählte Anzahl auswählen
+    currentQuestions = shuffled.slice(0, finalCount);
   } catch (error) {
     console.error('Fragen konnten nicht geladen werden:', error);
     alert(lang === 'de' ? 'Die Fragen konnten nicht geladen werden.' : 'Failed to load questions.');
@@ -26,10 +29,15 @@ async function loadQuestionsFromFile(lang) {
 }
 
 async function startQuiz(lang) {
-  currentLang = lang;
-  await loadQuestionsFromFile(lang);
+  const inputEl = document.getElementById('questionCountInput');
+  const requestedCount = parseInt(inputEl.value) || 30;
 
-  timeLeft = 20 * 60;
+  currentLang = lang;
+  await loadQuestionsFromFile(lang, requestedCount);
+
+  // Zeit dynamisch berechnen: 0,75 Min pro Frage (80 Fragen = 60 Min)
+  timeLeft = Math.floor(currentQuestions.length * 0.75 * 60);
+  
   currentPage = 0;
   userAnswers = {};
 
