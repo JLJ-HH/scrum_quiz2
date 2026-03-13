@@ -40,3 +40,9 @@ Simply open `index.html` in any modern web browser. No server setup or build pro
 4. Navigate using the **Next** and **Previous** buttons.
 5. Click **Submit** (on the last page) to see your results.
 6. Use the **Repeat Quiz** button to retake the quiz with the same settings.
+
+## Autor
+
+**José Luis Juárez** - Angehender Anwendungsentwickler aus Hamburg.
+
+[Strato Portfolio](https://jljuarez.de/scrum-quiz/)
